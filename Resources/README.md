@@ -1,6 +1,6 @@
-# Election Analysis
+# Colorado Board of Elections Analysis
 
-## Election Overview
+## Election Analysis Overview
 A Colorado Board of Elections employee has asked to complete the election audit of a recent local congressional election.
 
 The following analysis was requested
@@ -37,21 +37,28 @@ The following analysis was requested.
 3. Calculate the percentage of votes from each county
 4. Determine which county had the most voter participation for election.
 
-## Challenge Summary
+## County Analysis Summary
 The analysis of the counties show that:
 * The counties were:
- * Jefferson county
- * Denver county
- * Arapahoe county
+  * Jefferson county
+  * Denver county
+  * Arapahoe county
 * The county results were:
- * Jefferson county contributed to 10.5% of the total votes and had 38,855 votes.
- * Denver county contributed to 82.8% of the total votes and had 306,055 votes.
- * Arapahoe county contributed to 6.7% of the total votes and had 24,801 votes.
+  * Jefferson county contributed to 10.5% of the total votes and had 38,855 votes.
+  * Denver county contributed to 82.8% of the total votes and had 306,055 votes.
+  * Arapahoe county contributed to 6.7% of the total votes and had 24,801 votes.
 * The county with the largest county turnout:
- * Denver county, who contributed to 82.8% of the total votes and had 306,055 votes.
+  * Denver county, who contributed to 82.8% of the total votes and had 306,055 votes.
+
+## Election-Audit Summary
+The code used to analyze the current dataset has been formatted to analysis future election-audit results with a few simple modifications. The first modification would be changing the pathway to the path that contains the new dataset needing to be analyzed, if needed, and update the file name so it matches the new dataset name. The line of code needing to be updated is displayed below.
 
 
-# Visual Studio Code
+
+# Visual Studio Code Results
+![image](https://user-images.githubusercontent.com/26393180/149633551-9241eb12-70ab-4a0f-a14b-0d83fd4b6e56.png)
+
+# Visual Studio Analysis Code
     #Add our dependencies.
     import csv
     import os
