@@ -14,7 +14,7 @@ The following analysis was requested
 Data Source: election_results.csv
 Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
-## Summary
+## Election Analysis Summary
 The analysis of the election show that:
 * There were 369,711 votes cast in the election.
 * The candidates were:
@@ -53,6 +53,11 @@ The analysis of the counties show that:
 ## Election-Audit Summary
 The code used to analyze the current dataset has been formatted to analysis future election-audit results with a few simple modifications. The first modification would be changing the pathway to the path that contains the new dataset needing to be analyzed, if needed, and update the file name so it matches the new dataset name. The line of code needing to be updated is displayed below.
 
+![image](https://user-images.githubusercontent.com/26393180/149634301-cf306298-df7a-4734-b826-8ae2766fcc8b.png)
+
+The second modification would be to change the pathway for where the results will be saved, if needed, as well as creating a new file name for the new dataset that is being analyzed. This new file will present the analysis results for the new dataset. The line of code needing to be updated is displayed below as well.
+
+![image](https://user-images.githubusercontent.com/26393180/149634310-ab1bdb9b-5d35-46a5-b206-8df666d2a9d8.png)
 
 
 # Visual Studio Code Results
